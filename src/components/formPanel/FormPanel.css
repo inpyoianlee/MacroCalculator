@@ -1,0 +1,22 @@
+.FormPanel {
+    display: flex;
+    width: 50%;
+    height: 80%;
+    background-color: orange;
+    border: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info__item {
+    padding: 20px;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
+
+.height-ft__input-box, .height-in__input-box, .weight__input-box {
+    width: 50px;
+    height: 30px;
+    text-align: end;
+}
